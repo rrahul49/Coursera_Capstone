@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_629fb891fc0b4883883d34d601acffdb {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_629fb891fc0b4883883d34d601acffdb" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_629fb891fc0b4883883d34d601acffdb = L.map(
+        'map_629fb891fc0b4883883d34d601acffdb', {
+        center: [30.2711286, -97.7436995],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_0f06866717ae40e2a3c01be70e405eb8 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_629fb891fc0b4883883d34d601acffdb);
+    
+            var circle_marker_cba9a3b69888405e81fd205c33b1bb74 = L.circleMarker(
+                [30.34030091175344, -97.74516940787922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_d17f48de795a4c1ca685269680b9c2e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_285e3ae28db949718a1358f5cd7e505e = $(`<div id="html_285e3ae28db949718a1358f5cd7e505e" style="width: 100.0%; height: 100.0%;">Allandale / Food venues and misc social venues-High / 3 Food Truck, 2 Gym, 2 Mexican Restaurant</div>`)[0];
+                popup_d17f48de795a4c1ca685269680b9c2e5.setContent(html_285e3ae28db949718a1358f5cd7e505e);
+            
+
+            circle_marker_cba9a3b69888405e81fd205c33b1bb74.bindPopup(popup_d17f48de795a4c1ca685269680b9c2e5)
+            ;
+
+            
+        
+    
+            var circle_marker_fb25f4e275c94e7da38b5e12422303f5 = L.circleMarker(
+                [30.252021061390195, -97.78836673196345],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_3264987b0c14440c95ec1c244a034cff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_487f9d41dd5647d8a0f6538f2c8119cb = $(`<div id="html_487f9d41dd5647d8a0f6538f2c8119cb" style="width: 100.0%; height: 100.0%;">Barton Hills / Food venues and misc social venues-High / 2 Pool, 2 Trail, 1 Coffee Shop</div>`)[0];
+                popup_3264987b0c14440c95ec1c244a034cff.setContent(html_487f9d41dd5647d8a0f6538f2c8119cb);
+            
+
+            circle_marker_fb25f4e275c94e7da38b5e12422303f5.bindPopup(popup_3264987b0c14440c95ec1c244a034cff)
+            ;
+
+            
+        
+    
+            var circle_marker_3ff991d54cac4774a5cb708225090a26 = L.circleMarker(
+                [30.25170476437016, -97.75562607731666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_a3dfd995bac3440aaace07996020040d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_14afc855f1234db482f4446d91de14de = $(`<div id="html_14afc855f1234db482f4446d91de14de" style="width: 100.0%; height: 100.0%;">Bouldin Creek / Food venues and misc social venues-High / 6 Coffee Shop, 6 Food Truck, 4 Ice Cream Shop</div>`)[0];
+                popup_a3dfd995bac3440aaace07996020040d.setContent(html_14afc855f1234db482f4446d91de14de);
+            
+
+            circle_marker_3ff991d54cac4774a5cb708225090a26.bindPopup(popup_a3dfd995bac3440aaace07996020040d)
+            ;
+
+            
+        
+    
+            var circle_marker_ce93fcd990af4a0d98bfff434da74377 = L.circleMarker(
+                [30.33062494980526, -97.73245104383238],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_fa34e227730244458866e047270562e3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e85e916dbb0e4ae085fe9e8d9dbbb1a4 = $(`<div id="html_e85e916dbb0e4ae085fe9e8d9dbbb1a4" style="width: 100.0%; height: 100.0%;">Brentwood / Food venues and misc social venues-Medium / 5 Burger Joint, 3 Coffee Shop, 3 Gas Station</div>`)[0];
+                popup_fa34e227730244458866e047270562e3.setContent(html_e85e916dbb0e4ae085fe9e8d9dbbb1a4);
+            
+
+            circle_marker_ce93fcd990af4a0d98bfff434da74377.bindPopup(popup_fa34e227730244458866e047270562e3)
+            ;
+
+            
+        
+    
+            var circle_marker_107cde9fd65d40038196a83cdf490b84 = L.circleMarker(
+                [30.26974248961726, -97.72415333341539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_219d8843fb1247139e6f8fca352415ee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7aaba723282a4f21bff9a4a1312c9de3 = $(`<div id="html_7aaba723282a4f21bff9a4a1312c9de3" style="width: 100.0%; height: 100.0%;">Central East Austin / Food venues and misc social venues-Medium / 14 Food Truck, 9 Bar, 6 Mexican Restaurant</div>`)[0];
+                popup_219d8843fb1247139e6f8fca352415ee.setContent(html_7aaba723282a4f21bff9a4a1312c9de3);
+            
+
+            circle_marker_107cde9fd65d40038196a83cdf490b84.bindPopup(popup_219d8843fb1247139e6f8fca352415ee)
+            ;
+
+            
+        
+    
+            var circle_marker_1f9e9ebaf36042a08cd3da06dce05217 = L.circleMarker(
+                [30.27786036013073, -97.71504848113022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_4a95837ca063433ea9ccbe40780bf895 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1451696d904c44038df1655f4242bcce = $(`<div id="html_1451696d904c44038df1655f4242bcce" style="width: 100.0%; height: 100.0%;">Chestnut / Stores and residential venues-Medium / 6 Bar, 4 Cocktail Bar, 4 Convenience Store</div>`)[0];
+                popup_4a95837ca063433ea9ccbe40780bf895.setContent(html_1451696d904c44038df1655f4242bcce);
+            
+
+            circle_marker_1f9e9ebaf36042a08cd3da06dce05217.bindPopup(popup_4a95837ca063433ea9ccbe40780bf895)
+            ;
+
+            
+        
+    
+            var circle_marker_df999232a57845aa88920ef87d659f69 = L.circleMarker(
+                [30.326101453381494, -97.68500303032407],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_13f5bf8d912642ffa48270b9e3a1bb8c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a81fb5df3b69453183cfe547b7b1dece = $(`<div id="html_a81fb5df3b69453183cfe547b7b1dece" style="width: 100.0%; height: 100.0%;">Coronado Hills / Stores and residential venues-Low / 4 Mexican Restaurant, 3 Gas Station, 3 Grocery Store</div>`)[0];
+                popup_13f5bf8d912642ffa48270b9e3a1bb8c.setContent(html_a81fb5df3b69453183cfe547b7b1dece);
+            
+
+            circle_marker_df999232a57845aa88920ef87d659f69.bindPopup(popup_13f5bf8d912642ffa48270b9e3a1bb8c)
+            ;
+
+            
+        
+    
+            var circle_marker_a095376f4264458ca5255014f1b44deb = L.circleMarker(
+                [30.346577579703485, -97.72506169167113],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_580ec2073acc43f79f9210ecca67fb31 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86984ceccd594db8a51e22a7fd6d727e = $(`<div id="html_86984ceccd594db8a51e22a7fd6d727e" style="width: 100.0%; height: 100.0%;">Crestview / Stores and residential venues-Medium / 3 Mexican Restaurant, 2 Bakery, 2 Furniture / Home Store</div>`)[0];
+                popup_580ec2073acc43f79f9210ecca67fb31.setContent(html_86984ceccd594db8a51e22a7fd6d727e);
+            
+
+            circle_marker_a095376f4264458ca5255014f1b44deb.bindPopup(popup_580ec2073acc43f79f9210ecca67fb31)
+            ;
+
+            
+        
+    
+            var circle_marker_204f494b77ce4168856d669a70298ab6 = L.circleMarker(
+                [30.232690112028934, -97.76178961638368],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_f16b228076aa44169e8c352155a8d26a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d0896460e05c4167aeeebfc7c0d5ff4a = $(`<div id="html_d0896460e05c4167aeeebfc7c0d5ff4a" style="width: 100.0%; height: 100.0%;">Dawson / Stores and residential venues-Medium / 4 Mexican Restaurant, 2 Athletics &amp; Sports, 2 BBQ Joint</div>`)[0];
+                popup_f16b228076aa44169e8c352155a8d26a.setContent(html_d0896460e05c4167aeeebfc7c0d5ff4a);
+            
+
+            circle_marker_204f494b77ce4168856d669a70298ab6.bindPopup(popup_f16b228076aa44169e8c352155a8d26a)
+            ;
+
+            
+        
+    
+            var circle_marker_c4868e70cb9540d29d9299fe02e48e2a = L.circleMarker(
+                [30.27100483754254, -97.74275774449136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_bee72939948e4e56a03c4e87c354ce74 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_06377a0086fc4a2b874b9c43f689039d = $(`<div id="html_06377a0086fc4a2b874b9c43f689039d" style="width: 100.0%; height: 100.0%;">Downtown / Food venues and misc social venues-Medium / 6 Hotel, 5 Cocktail Bar, 5 Coffee Shop</div>`)[0];
+                popup_bee72939948e4e56a03c4e87c354ce74.setContent(html_06377a0086fc4a2b874b9c43f689039d);
+            
+
+            circle_marker_c4868e70cb9540d29d9299fe02e48e2a.bindPopup(popup_bee72939948e4e56a03c4e87c354ce74)
+            ;
+
+            
+        
+    
+            var circle_marker_033db44686404b0ba2bd81fec5cf1978 = L.circleMarker(
+                [30.257822302800133, -97.73066698116303],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_fbad1ed80c1641d08d2470b7d1241fef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0c85e9fefd2542b2b046dc0589b79d2c = $(`<div id="html_0c85e9fefd2542b2b046dc0589b79d2c" style="width: 100.0%; height: 100.0%;">East Cesar Chavez / Food venues and misc social venues-Medium / 10 Food Truck, 9 Bar, 8 Mexican Restaurant</div>`)[0];
+                popup_fbad1ed80c1641d08d2470b7d1241fef.setContent(html_0c85e9fefd2542b2b046dc0589b79d2c);
+            
+
+            circle_marker_033db44686404b0ba2bd81fec5cf1978.bindPopup(popup_fbad1ed80c1641d08d2470b7d1241fef)
+            ;
+
+            
+        
+    
+            var circle_marker_c08cb988d49347608dcfbd464581279a = L.circleMarker(
+                [30.210612654550044, -97.76348033207184],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_f47628c9d38f49a2b4b1caf2fe593281 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eb9eef70668b4a598e4098f0d6dcb204 = $(`<div id="html_eb9eef70668b4a598e4098f0d6dcb204" style="width: 100.0%; height: 100.0%;">East Congress / Food venues and misc social venues-Low / 7 Hotel, 4 Food Truck, 2 Automotive Shop</div>`)[0];
+                popup_f47628c9d38f49a2b4b1caf2fe593281.setContent(html_eb9eef70668b4a598e4098f0d6dcb204);
+            
+
+            circle_marker_c08cb988d49347608dcfbd464581279a.bindPopup(popup_f47628c9d38f49a2b4b1caf2fe593281)
+            ;
+
+            
+        
+    
+            var circle_marker_a5e6b3d28a844c169b1240f4fe6300f7 = L.circleMarker(
+                [30.242696313296776, -97.83857234636366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_8ba012bb5bc1426b98272e1c7721946b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07c53514f3004902983de8b72445fc7e = $(`<div id="html_07c53514f3004902983de8b72445fc7e" style="width: 100.0%; height: 100.0%;">East Oak Hill / Food venues and misc social venues-Medium / 2 Sandwich Place, 1 Arts &amp; Entertainment, 1 Convenience Store</div>`)[0];
+                popup_8ba012bb5bc1426b98272e1c7721946b.setContent(html_07c53514f3004902983de8b72445fc7e);
+            
+
+            circle_marker_a5e6b3d28a844c169b1240f4fe6300f7.bindPopup(popup_8ba012bb5bc1426b98272e1c7721946b)
+            ;
+
+            
+        
+    
+            var circle_marker_a04764d07e43448a8a242fed6586b709 = L.circleMarker(
+                [30.19801449672025, -97.74872667629168],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_fc7887bed127497d9d261ba4b1551d49 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a2a2554318e0408588099bed35f2805b = $(`<div id="html_a2a2554318e0408588099bed35f2805b" style="width: 100.0%; height: 100.0%;">Franklin Park / Stores and residential venues-Low / 2 Video Store, 1 Automotive Shop, 1 Convenience Store</div>`)[0];
+                popup_fc7887bed127497d9d261ba4b1551d49.setContent(html_a2a2554318e0408588099bed35f2805b);
+            
+
+            circle_marker_a04764d07e43448a8a242fed6586b709.bindPopup(popup_fc7887bed127497d9d261ba4b1551d49)
+            ;
+
+            
+        
+    
+            var circle_marker_701f136ad8aa48328ef9f112c4bdc97e = L.circleMarker(
+                [30.23632957984685, -97.7685892540397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_95e6b50ce9c44ab08bff0a9f4ff92e2c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_71a459b778314aeea25b50ea5bb359f0 = $(`<div id="html_71a459b778314aeea25b50ea5bb359f0" style="width: 100.0%; height: 100.0%;">Galindo / Stores and residential venues-Medium / 2 Mexican Restaurant, 2 Residential Building (Apartment / Condo), 1 Athletics &amp; Sports</div>`)[0];
+                popup_95e6b50ce9c44ab08bff0a9f4ff92e2c.setContent(html_71a459b778314aeea25b50ea5bb359f0);
+            
+
+            circle_marker_701f136ad8aa48328ef9f112c4bdc97e.bindPopup(popup_95e6b50ce9c44ab08bff0a9f4ff92e2c)
+            ;
+
+            
+        
+    
+            var circle_marker_4a6745bf340842aca1e70a3a5501f4cb = L.circleMarker(
+                [30.208973784020486, -97.80071220305531],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_9df48df39a204084b3d20a38facb87a3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c5810b5933e5441dabb66d8559e440cc = $(`<div id="html_c5810b5933e5441dabb66d8559e440cc" style="width: 100.0%; height: 100.0%;">Garrison Park / Stores and residential venues-Low / 4 Mexican Restaurant, 4 Pizza Place, 3 Convenience Store</div>`)[0];
+                popup_9df48df39a204084b3d20a38facb87a3.setContent(html_c5810b5933e5441dabb66d8559e440cc);
+            
+
+            circle_marker_4a6745bf340842aca1e70a3a5501f4cb.bindPopup(popup_9df48df39a204084b3d20a38facb87a3)
+            ;
+
+            
+        
+    
+            var circle_marker_059e984e5c7241a398a30d5811923aed = L.circleMarker(
+                [30.351241996990495, -97.69954485986337],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_ae9ddc7c516343338c36c69fb5f954d5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4e00006751934b318d74952d8a254854 = $(`<div id="html_4e00006751934b318d74952d8a254854" style="width: 100.0%; height: 100.0%;">Georgian Acres / Food venues and misc social venues-Low / 4 Hotel, 2 Fast Food Restaurant, 2 Food Truck</div>`)[0];
+                popup_ae9ddc7c516343338c36c69fb5f954d5.setContent(html_4e00006751934b318d74952d8a254854);
+            
+
+            circle_marker_059e984e5c7241a398a30d5811923aed.bindPopup(popup_ae9ddc7c516343338c36c69fb5f954d5)
+            ;
+
+            
+        
+    
+            var circle_marker_8ee23ae01f8044069ef13fbe068720c3 = L.circleMarker(
+                [30.259194430717177, -97.70188858629045],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_b07752f931234dc0b0a0ec95f31d0706 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e6dbbd71a6854c878b18358e0079421f = $(`<div id="html_e6dbbd71a6854c878b18358e0079421f" style="width: 100.0%; height: 100.0%;">Govalle / Stores and residential venues-Medium / 5 Art Gallery, 4 Brewery, 4 Farm</div>`)[0];
+                popup_b07752f931234dc0b0a0ec95f31d0706.setContent(html_e6dbbd71a6854c878b18358e0079421f);
+            
+
+            circle_marker_8ee23ae01f8044069ef13fbe068720c3.bindPopup(popup_b07752f931234dc0b0a0ec95f31d0706)
+            ;
+
+            
+        
+    
+            var circle_marker_c5700a22aa8247d995c2bf2c7551f2df = L.circleMarker(
+                [30.29668058489216, -97.72485092859152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_541fde9618024a7bb3fe6d5edcc8a54d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_75ceae66ee4c49ed9246bf8c1042cabf = $(`<div id="html_75ceae66ee4c49ed9246bf8c1042cabf" style="width: 100.0%; height: 100.0%;">Hancock / Stores and residential venues-Medium / 4 Grocery Store, 4 Sandwich Place, 3 Fast Food Restaurant</div>`)[0];
+                popup_541fde9618024a7bb3fe6d5edcc8a54d.setContent(html_75ceae66ee4c49ed9246bf8c1042cabf);
+            
+
+            circle_marker_c5700a22aa8247d995c2bf2c7551f2df.bindPopup(popup_541fde9618024a7bb3fe6d5edcc8a54d)
+            ;
+
+            
+        
+    
+            var circle_marker_b91c4a03676746e1bb411ead2abc5894 = L.circleMarker(
+                [30.345079381087494, -97.68745415611495],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_b4794727ae104955bf628cbf2a261e71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bc6db8da3b2244a1a368f6ee60e86aeb = $(`<div id="html_bc6db8da3b2244a1a368f6ee60e86aeb" style="width: 100.0%; height: 100.0%;">Heritage Hills / Stores and residential venues-Low / 1 Auto Garage, 1 Café, 1 Chinese Restaurant</div>`)[0];
+                popup_b4794727ae104955bf628cbf2a261e71.setContent(html_bc6db8da3b2244a1a368f6ee60e86aeb);
+            
+
+            circle_marker_b91c4a03676746e1bb411ead2abc5894.bindPopup(popup_b4794727ae104955bf628cbf2a261e71)
+            ;
+
+            
+        
+    
+            var circle_marker_6b7a1cd87db04b0f9d58da9a5495d476 = L.circleMarker(
+                [30.332725529781992, -97.71440053764945],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_03d11f88198b44d5a2bb702316aa6657 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d26f7b579c945e696796c143d7449af = $(`<div id="html_5d26f7b579c945e696796c143d7449af" style="width: 100.0%; height: 100.0%;">Highland / Stores and residential venues-Low / 6 Korean Restaurant, 5 Mexican Restaurant, 3 Chinese Restaurant</div>`)[0];
+                popup_03d11f88198b44d5a2bb702316aa6657.setContent(html_5d26f7b579c945e696796c143d7449af);
+            
+
+            circle_marker_6b7a1cd87db04b0f9d58da9a5495d476.bindPopup(popup_03d11f88198b44d5a2bb702316aa6657)
+            ;
+
+            
+        
+    
+            var circle_marker_73114862068042a289a77c9d5eabbe19 = L.circleMarker(
+                [30.25491479748041, -97.71946991143588],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_77d4c6e1c8bc42bda349523b571a932d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_adb90ec6973549a4b55db5276dcd5ac9 = $(`<div id="html_adb90ec6973549a4b55db5276dcd5ac9" style="width: 100.0%; height: 100.0%;">Holly / Stores and residential venues-Medium / 8 Mexican Restaurant, 5 Pizza Place, 4 BBQ Joint</div>`)[0];
+                popup_77d4c6e1c8bc42bda349523b571a932d.setContent(html_adb90ec6973549a4b55db5276dcd5ac9);
+            
+
+            circle_marker_73114862068042a289a77c9d5eabbe19.bindPopup(popup_77d4c6e1c8bc42bda349523b571a932d)
+            ;
+
+            
+        
+    
+            var circle_marker_e259f957d45b4234b2249fcd44bf9e12 = L.circleMarker(
+                [30.307749652804045, -97.7270807018285],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_3f23a0b770674f058295a9c3799557de = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a599832636ee475d99a7c82d4d17c3c1 = $(`<div id="html_a599832636ee475d99a7c82d4d17c3c1" style="width: 100.0%; height: 100.0%;">Hyde Park / Stores and residential venues-Medium / 3 Mexican Restaurant, 2 Art Gallery, 2 Bus Stop</div>`)[0];
+                popup_3f23a0b770674f058295a9c3799557de.setContent(html_a599832636ee475d99a7c82d4d17c3c1);
+            
+
+            circle_marker_e259f957d45b4234b2249fcd44bf9e12.bindPopup(popup_3f23a0b770674f058295a9c3799557de)
+            ;
+
+            
+        
+    
+            var circle_marker_5d8af37b6a3a4554be591ca975f586f5 = L.circleMarker(
+                [30.25828162460259, -97.68468973914142],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_93373c9b3faa4262960fb69692cd4fa5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d4110bfcf3f04031865327a7a0ddf939 = $(`<div id="html_d4110bfcf3f04031865327a7a0ddf939" style="width: 100.0%; height: 100.0%;">Johnston Terrace / Stores and residential venues-Low / 2 Art Gallery, 2 Gas Station, 2 Mexican Restaurant</div>`)[0];
+                popup_93373c9b3faa4262960fb69692cd4fa5.setContent(html_d4110bfcf3f04031865327a7a0ddf939);
+            
+
+            circle_marker_5d8af37b6a3a4554be591ca975f586f5.bindPopup(popup_93373c9b3faa4262960fb69692cd4fa5)
+            ;
+
+            
+        
+    
+            var circle_marker_fc273b9ccaa44cd2b22512e66b9c419f = L.circleMarker(
+                [30.283826178739957, -97.69229662263758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_514765aac7c946ac9700fda20e54e605 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_968c63f2cb4f46f1905674d95a77f80b = $(`<div id="html_968c63f2cb4f46f1905674d95a77f80b" style="width: 100.0%; height: 100.0%;">MLK / Stores and residential venues-Medium / 2 Outdoor Sculpture, 2 Park, 1 BBQ Joint</div>`)[0];
+                popup_514765aac7c946ac9700fda20e54e605.setContent(html_968c63f2cb4f46f1905674d95a77f80b);
+            
+
+            circle_marker_fc273b9ccaa44cd2b22512e66b9c419f.bindPopup(popup_514765aac7c946ac9700fda20e54e605)
+            ;
+
+            
+        
+    
+            var circle_marker_1583cc6f855040dc97633f67c437b6a6 = L.circleMarker(
+                [30.278166185035715, -97.67170771878038],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_d4f48872bbac4c3eabddd738a0227295 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86adf7f10c6c4671a3ba694423456ee6 = $(`<div id="html_86adf7f10c6c4671a3ba694423456ee6" style="width: 100.0%; height: 100.0%;">MLK 183 / Food venues and misc social venues-Low / 2 Gym, 1 American Restaurant, 1 Bar</div>`)[0];
+                popup_d4f48872bbac4c3eabddd738a0227295.setContent(html_86adf7f10c6c4671a3ba694423456ee6);
+            
+
+            circle_marker_1583cc6f855040dc97633f67c437b6a6.bindPopup(popup_d4f48872bbac4c3eabddd738a0227295)
+            ;
+
+            
+        
+    
+            var circle_marker_e438f6da7cd3424e91c1cd87c1912fef = L.circleMarker(
+                [30.20319507924458, -97.73056783223464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_a7976998ac3d49668bb49ef341710480 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_026fba40e55f40e2a10e527cb270eb2a = $(`<div id="html_026fba40e55f40e2a10e527cb270eb2a" style="width: 100.0%; height: 100.0%;">Mckinney / Sporting Goods-Low / 2 Sporting Goods Shop, 1 Construction &amp; Landscaping, 1 Sandwich Place</div>`)[0];
+                popup_a7976998ac3d49668bb49ef341710480.setContent(html_026fba40e55f40e2a10e527cb270eb2a);
+            
+
+            circle_marker_e438f6da7cd3424e91c1cd87c1912fef.bindPopup(popup_a7976998ac3d49668bb49ef341710480)
+            ;
+
+            
+        
+    
+            var circle_marker_4af3e64f6730445388f605bf7eec9968 = L.circleMarker(
+                [30.227656383186, -97.69649863287974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_2ee28f26108d40648560798164f3747b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_42497d929db3432687933ff035418032 = $(`<div id="html_42497d929db3432687933ff035418032" style="width: 100.0%; height: 100.0%;">Montopolis / Stores and residential venues-Low / 3 Hotel, 2 Convenience Store, 2 Food Truck</div>`)[0];
+                popup_2ee28f26108d40648560798164f3747b.setContent(html_42497d929db3432687933ff035418032);
+            
+
+            circle_marker_4af3e64f6730445388f605bf7eec9968.bindPopup(popup_2ee28f26108d40648560798164f3747b)
+            ;
+
+            
+        
+    
+            var circle_marker_f7fc0588519644caa51bdf752953226b = L.circleMarker(
+                [30.29748894155538, -97.70105571800084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_adff77bae5594022aa49737c99568c35 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8df3edc52af146c28f688c84cdadc7d5 = $(`<div id="html_8df3edc52af146c28f688c84cdadc7d5" style="width: 100.0%; height: 100.0%;">Mueller / Food venues and misc social venues-Medium / 5 Park, 3 Coffee Shop, 3 Food Truck</div>`)[0];
+                popup_adff77bae5594022aa49737c99568c35.setContent(html_8df3edc52af146c28f688c84cdadc7d5);
+            
+
+            circle_marker_f7fc0588519644caa51bdf752953226b.bindPopup(popup_adff77bae5594022aa49737c99568c35)
+            ;
+
+            
+        
+    
+            var circle_marker_5cd12a237add4cfb9593bba3c0eccfa7 = L.circleMarker(
+                [30.370192454396488, -97.70621197901929],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_6a2fd6723ad14548ac16bc168f0861b4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2806dc90c68148068656735cdf0318d1 = $(`<div id="html_2806dc90c68148068656735cdf0318d1" style="width: 100.0%; height: 100.0%;">North Austin / Stores and residential venues-Low / 2 Mexican Restaurant, 1 Clothing Store, 1 Convenience Store</div>`)[0];
+                popup_6a2fd6723ad14548ac16bc168f0861b4.setContent(html_2806dc90c68148068656735cdf0318d1);
+            
+
+            circle_marker_5cd12a237add4cfb9593bba3c0eccfa7.bindPopup(popup_6a2fd6723ad14548ac16bc168f0861b4)
+            ;
+
+            
+        
+    
+            var circle_marker_6da1eecb5ae34283a1ff596a8191f4a1 = L.circleMarker(
+                [30.391838677823404, -97.72039162419865],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_01651760e73441c49baddef0c9975eb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c9a4920923b74319b5d560121636fe69 = $(`<div id="html_c9a4920923b74319b5d560121636fe69" style="width: 100.0%; height: 100.0%;">North Burnett / Food venues and misc social venues-Very Low / 3 Hotel, 2 Bar, 2 Brewery</div>`)[0];
+                popup_01651760e73441c49baddef0c9975eb1.setContent(html_c9a4920923b74319b5d560121636fe69);
+            
+
+            circle_marker_6da1eecb5ae34283a1ff596a8191f4a1.bindPopup(popup_01651760e73441c49baddef0c9975eb1)
+            ;
+
+            
+        
+    
+            var circle_marker_141edea2f043414aac8e6160f72f5d3b = L.circleMarker(
+                [30.370104634140535, -97.68668990068933],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_7b711c8a574444008855e2478154cce5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2f219af4601e46579f7a47259526664b = $(`<div id="html_2f219af4601e46579f7a47259526664b" style="width: 100.0%; height: 100.0%;">North Lamar / Food venues and misc social venues-Low / 4 Discount Store, 4 Vietnamese Restaurant, 2 Bank</div>`)[0];
+                popup_7b711c8a574444008855e2478154cce5.setContent(html_2f219af4601e46579f7a47259526664b);
+            
+
+            circle_marker_141edea2f043414aac8e6160f72f5d3b.bindPopup(popup_7b711c8a574444008855e2478154cce5)
+            ;
+
+            
+        
+    
+            var circle_marker_929741d3308f46a99f7e284fc5b62817 = L.circleMarker(
+                [30.31574713878381, -97.71715716061831],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_b1e85738e5064557935befc9bda12f7e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_df2c39e42a834a0f91417e54cdff58dc = $(`<div id="html_df2c39e42a834a0f91417e54cdff58dc" style="width: 100.0%; height: 100.0%;">North Loop / Food venues and misc social venues-Medium / 4 Coffee Shop, 3 Pizza Place, 2 American Restaurant</div>`)[0];
+                popup_b1e85738e5064557935befc9bda12f7e.setContent(html_df2c39e42a834a0f91417e54cdff58dc);
+            
+
+            circle_marker_929741d3308f46a99f7e284fc5b62817.bindPopup(popup_b1e85738e5064557935befc9bda12f7e)
+            ;
+
+            
+        
+    
+            var circle_marker_0bcb5cfeee8a494b9e3389b5b2568fb7 = L.circleMarker(
+                [30.367632568593734, -97.73510905977797],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_1399a18947314686a60173fdac8582f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f342020adeb49248fd96f2a261a98c8 = $(`<div id="html_1f342020adeb49248fd96f2a261a98c8" style="width: 100.0%; height: 100.0%;">North Shoal Creek / Food venues and misc social venues-Medium / 4 Sporting Goods Shop, 3 Coffee Shop, 3 Furniture / Home Store</div>`)[0];
+                popup_1399a18947314686a60173fdac8582f6.setContent(html_1f342020adeb49248fd96f2a261a98c8);
+            
+
+            circle_marker_0bcb5cfeee8a494b9e3389b5b2568fb7.bindPopup(popup_1399a18947314686a60173fdac8582f6)
+            ;
+
+            
+        
+    
+            var circle_marker_b0cd65add1834fa9a38a95222ba4b27f = L.circleMarker(
+                [30.296646113359706, -97.73666131790797],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_56d3d6e1c9064e9e89dcd437397d0575 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8b6e3a86911b42599e04d03536538a6a = $(`<div id="html_8b6e3a86911b42599e04d03536538a6a" style="width: 100.0%; height: 100.0%;">North University / Food venues and misc social venues-Low / 4 Burger Joint, 4 Food Truck, 4 Pizza Place</div>`)[0];
+                popup_56d3d6e1c9064e9e89dcd437397d0575.setContent(html_8b6e3a86911b42599e04d03536538a6a);
+            
+
+            circle_marker_b0cd65add1834fa9a38a95222ba4b27f.bindPopup(popup_56d3d6e1c9064e9e89dcd437397d0575)
+            ;
+
+            
+        
+    
+            var circle_marker_74991c88c2cf4d1584019dd095c7ac17 = L.circleMarker(
+                [30.285851744883097, -97.757013325369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_937665248d334f45a44d77250eb53ecc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d5b247200f04f08a998f64fe9c25a65 = $(`<div id="html_5d5b247200f04f08a998f64fe9c25a65" style="width: 100.0%; height: 100.0%;">Old Enfield / Stores and residential venues-Very High / 2 American Restaurant, 2 Park, 1 BBQ Joint</div>`)[0];
+                popup_937665248d334f45a44d77250eb53ecc.setContent(html_5d5b247200f04f08a998f64fe9c25a65);
+            
+
+            circle_marker_74991c88c2cf4d1584019dd095c7ac17.bindPopup(popup_937665248d334f45a44d77250eb53ecc)
+            ;
+
+            
+        
+    
+            var circle_marker_26f1e285056c43f6867d877dce914224 = L.circleMarker(
+                [30.27605666816276, -97.76071616178109],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_ac26d53137474f7089e7841a9b68865c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_894fff425da74111b5dfa9ec85e55d39 = $(`<div id="html_894fff425da74111b5dfa9ec85e55d39" style="width: 100.0%; height: 100.0%;">Old West Austin / Food venues and misc social venues-High / 5 American Restaurant, 4 Grocery Store, 4 Gym</div>`)[0];
+                popup_ac26d53137474f7089e7841a9b68865c.setContent(html_894fff425da74111b5dfa9ec85e55d39);
+            
+
+            circle_marker_26f1e285056c43f6867d877dce914224.bindPopup(popup_ac26d53137474f7089e7841a9b68865c)
+            ;
+
+            
+        
+    
+            var circle_marker_018902e423254299b5b501d5c04edf4a = L.circleMarker(
+                [30.221488884111565, -97.73298789134171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_c096485550084e08bb8d2401c568fc12 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8de2e9f885744ff5bd98c50538b47346 = $(`<div id="html_8de2e9f885744ff5bd98c50538b47346" style="width: 100.0%; height: 100.0%;">Parker Lane / Stores and residential venues-Low / 5 Mexican Restaurant, 4 Vietnamese Restaurant, 3 Convenience Store</div>`)[0];
+                popup_c096485550084e08bb8d2401c568fc12.setContent(html_8de2e9f885744ff5bd98c50538b47346);
+            
+
+            circle_marker_018902e423254299b5b501d5c04edf4a.bindPopup(popup_c096485550084e08bb8d2401c568fc12)
+            ;
+
+            
+        
+    
+            var circle_marker_05a00c3974f744c798104a097af4173e = L.circleMarker(
+                [30.297079332684206, -97.67350775308816],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_042eb37a483845baa73fb22bdf145d6f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6c8a42475e15427296fbb0a43e69ceb3 = $(`<div id="html_6c8a42475e15427296fbb0a43e69ceb3" style="width: 100.0%; height: 100.0%;">Pecan Springs-Springdale / Stores and residential venues-Low / 1 Auto Workshop, 1 Discount Store, 1 Motel</div>`)[0];
+                popup_042eb37a483845baa73fb22bdf145d6f.setContent(html_6c8a42475e15427296fbb0a43e69ceb3);
+            
+
+            circle_marker_05a00c3974f744c798104a097af4173e.bindPopup(popup_042eb37a483845baa73fb22bdf145d6f)
+            ;
+
+            
+        
+    
+            var circle_marker_e24e3d09bf2b44faafb0e0bd666e4db3 = L.circleMarker(
+                [30.233974653997954, -97.71196843480078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_3ec874aaaa6249e5a06e52877644ffd7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1742942656b14f8f86d91b4c64a1c0bb = $(`<div id="html_1742942656b14f8f86d91b4c64a1c0bb" style="width: 100.0%; height: 100.0%;">Pleasant Valley / Food venues and misc social venues-Low / 2 Bus Station, 2 Cosmetics Shop, 2 Discount Store</div>`)[0];
+                popup_3ec874aaaa6249e5a06e52877644ffd7.setContent(html_1742942656b14f8f86d91b4c64a1c0bb);
+            
+
+            circle_marker_e24e3d09bf2b44faafb0e0bd666e4db3.bindPopup(popup_3ec874aaaa6249e5a06e52877644ffd7)
+            ;
+
+            
+        
+    
+            var circle_marker_dfa6a72c8cc349fd80b707b73b5b5ef0 = L.circleMarker(
+                [30.238584528610705, -97.7294224595599],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_a615046b05f44e83bd23983126ca4512 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_78911a4b81ba454180df55738b753b61 = $(`<div id="html_78911a4b81ba454180df55738b753b61" style="width: 100.0%; height: 100.0%;">Riverside / Stores and residential venues-Medium / 9 Mexican Restaurant, 7 Food Truck, 6 Convenience Store</div>`)[0];
+                popup_a615046b05f44e83bd23983126ca4512.setContent(html_78911a4b81ba454180df55738b753b61);
+            
+
+            circle_marker_dfa6a72c8cc349fd80b707b73b5b5ef0.bindPopup(popup_a615046b05f44e83bd23983126ca4512)
+            ;
+
+            
+        
+    
+            var circle_marker_6b4702df3bc4427eb6078bcf50369d41 = L.circleMarker(
+                [30.314588874428626, -97.74738983207494],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_de618584702b473284c2d602824c33c3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b89945caa59418d9a0865ee92c78e00 = $(`<div id="html_7b89945caa59418d9a0865ee92c78e00" style="width: 100.0%; height: 100.0%;">Rosedale / Food venues and misc social venues-High / 6 Coffee Shop, 4 Mexican Restaurant, 3 Café</div>`)[0];
+                popup_de618584702b473284c2d602824c33c3.setContent(html_7b89945caa59418d9a0865ee92c78e00);
+            
+
+            circle_marker_6b4702df3bc4427eb6078bcf50369d41.bindPopup(popup_de618584702b473284c2d602824c33c3)
+            ;
+
+            
+        
+    
+            var circle_marker_9d98df05584749dd8d3df809ada88cbb = L.circleMarker(
+                [30.275119046494574, -97.70910558715467],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_25213e0463b9420aa594f2adda90cdd1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3ee31a52497140d99e4171bc06e2d87a = $(`<div id="html_3ee31a52497140d99e4171bc06e2d87a" style="width: 100.0%; height: 100.0%;">Rosewood / Stores and residential venues-Medium / 4 Theater, 3 Convenience Store, 3 Park</div>`)[0];
+                popup_25213e0463b9420aa594f2adda90cdd1.setContent(html_3ee31a52497140d99e4171bc06e2d87a);
+            
+
+            circle_marker_9d98df05584749dd8d3df809ada88cbb.bindPopup(popup_25213e0463b9420aa594f2adda90cdd1)
+            ;
+
+            
+        
+    
+            var circle_marker_66cbb2702f334abb81e50890736abc1c = L.circleMarker(
+                [30.23695309517954, -97.78104811145023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_6b3028de83394f239aa7e265f59572d1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_57263f42012742f4af685fd08008a23a = $(`<div id="html_57263f42012742f4af685fd08008a23a" style="width: 100.0%; height: 100.0%;">South Lamar / Food venues and misc social venues-Medium / 4 Burger Joint, 4 Fast Food Restaurant, 4 Food Truck</div>`)[0];
+                popup_6b3028de83394f239aa7e265f59572d1.setContent(html_57263f42012742f4af685fd08008a23a);
+            
+
+            circle_marker_66cbb2702f334abb81e50890736abc1c.bindPopup(popup_6b3028de83394f239aa7e265f59572d1)
+            ;
+
+            
+        
+    
+            var circle_marker_f228296d2807480dbb2fdcc1f053e354 = L.circleMarker(
+                [30.21964371292934, -97.78376711807846],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_ec19005c35774cd3b1a8ee02e527376c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b71edade743f4453a5f36c9d274cecf0 = $(`<div id="html_b71edade743f4453a5f36c9d274cecf0" style="width: 100.0%; height: 100.0%;">South Manchaca / Stores and residential venues-Low / 1 Automotive Shop, 1 Convenience Store, 1 Fast Food Restaurant</div>`)[0];
+                popup_ec19005c35774cd3b1a8ee02e527376c.setContent(html_b71edade743f4453a5f36c9d274cecf0);
+            
+
+            circle_marker_f228296d2807480dbb2fdcc1f053e354.bindPopup(popup_ec19005c35774cd3b1a8ee02e527376c)
+            ;
+
+            
+        
+    
+            var circle_marker_b93d8fb2267b4455a6d2839e18ad3811 = L.circleMarker(
+                [30.24537144530725, -97.74402878844744],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_3cfb2b19b4524ae0bc5029717b90f6c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb649e0808c94a40999bb7a39baf01c0 = $(`<div id="html_bb649e0808c94a40999bb7a39baf01c0" style="width: 100.0%; height: 100.0%;">South River City / Food venues and misc social venues-High / 3 Boutique, 3 Coffee Shop, 3 Food Truck</div>`)[0];
+                popup_3cfb2b19b4524ae0bc5029717b90f6c0.setContent(html_bb649e0808c94a40999bb7a39baf01c0);
+            
+
+            circle_marker_b93d8fb2267b4455a6d2839e18ad3811.bindPopup(popup_3cfb2b19b4524ae0bc5029717b90f6c0)
+            ;
+
+            
+        
+    
+            var circle_marker_21f29de4df26485da8e53423b1938fd8 = L.circleMarker(
+                [30.20394021342271, -97.69571500080902],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_1fa4806ac36b4a9caa36ab93d65fe3e4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f7c4b640f404dfb883c59ad58fe80e0 = $(`<div id="html_1f7c4b640f404dfb883c59ad58fe80e0" style="width: 100.0%; height: 100.0%;">Southeast / Gym-Low / 2 Café, 2 Gym, 1 Coffee Shop</div>`)[0];
+                popup_1fa4806ac36b4a9caa36ab93d65fe3e4.setContent(html_1f7c4b640f404dfb883c59ad58fe80e0);
+            
+
+            circle_marker_21f29de4df26485da8e53423b1938fd8.bindPopup(popup_1fa4806ac36b4a9caa36ab93d65fe3e4)
+            ;
+
+            
+        
+    
+            var circle_marker_a0fd603d574340a9ac46e7651a9b2204 = L.circleMarker(
+                [30.227757199790588, -97.75274222186003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_ad3a0c558ea14e3f971ac6f6bbccaae3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f5c59cb17d8c4916bce4f930148576a0 = $(`<div id="html_f5c59cb17d8c4916bce4f930148576a0" style="width: 100.0%; height: 100.0%;">St. Edwards / Food venues and misc social venues-Medium / 3 Coffee Shop, 3 Food Truck, 3 Hotel</div>`)[0];
+                popup_ad3a0c558ea14e3f971ac6f6bbccaae3.setContent(html_f5c59cb17d8c4916bce4f930148576a0);
+            
+
+            circle_marker_a0fd603d574340a9ac46e7651a9b2204.bindPopup(popup_ad3a0c558ea14e3f971ac6f6bbccaae3)
+            ;
+
+            
+        
+    
+            var circle_marker_30b5ef218f7c433da223413cf7486b57 = L.circleMarker(
+                [30.330428609848873, -97.69991182775254],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_78d01675c7804276a62c085cada4cacf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_59dfeed455c34484a55dc6e73052a731 = $(`<div id="html_59dfeed455c34484a55dc6e73052a731" style="width: 100.0%; height: 100.0%;">St. Johns / Stores and residential venues-Low / 9 Hotel, 4 Mexican Restaurant, 2 Breakfast Spot</div>`)[0];
+                popup_78d01675c7804276a62c085cada4cacf.setContent(html_59dfeed455c34484a55dc6e73052a731);
+            
+
+            circle_marker_30b5ef218f7c433da223413cf7486b57.bindPopup(popup_78d01675c7804276a62c085cada4cacf)
+            ;
+
+            
+        
+    
+            var circle_marker_2f842e23461a4c0b91390c0203cac1bf = L.circleMarker(
+                [30.19879017859597, -97.77626986223919],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_627c98fde44f40a18334dd9c4df43174 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b57b6124459a4df084c53b6c669788b7 = $(`<div id="html_b57b6124459a4df084c53b6c669788b7" style="width: 100.0%; height: 100.0%;">Sweetbriar / Stores and residential venues-Low / 10 Mexican Restaurant, 4 Fast Food Restaurant, 3 Discount Store</div>`)[0];
+                popup_627c98fde44f40a18334dd9c4df43174.setContent(html_b57b6124459a4df084c53b6c669788b7);
+            
+
+            circle_marker_2f842e23461a4c0b91390c0203cac1bf.bindPopup(popup_627c98fde44f40a18334dd9c4df43174)
+            ;
+
+            
+        
+    
+            var circle_marker_050f54319bb14b5ebad3555f046e123a = L.circleMarker(
+                [30.311497026009356, -97.73404152300333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_dba3f69c5ede40518da45edb75d11980 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a107c497ce8740b28a789aeede6c998d = $(`<div id="html_a107c497ce8740b28a789aeede6c998d" style="width: 100.0%; height: 100.0%;">Triangle State / Food venues and misc social venues-Medium / 4 Coffee Shop, 4 Food Truck, 4 Mexican Restaurant</div>`)[0];
+                popup_dba3f69c5ede40518da45edb75d11980.setContent(html_a107c497ce8740b28a789aeede6c998d);
+            
+
+            circle_marker_050f54319bb14b5ebad3555f046e123a.bindPopup(popup_dba3f69c5ede40518da45edb75d11980)
+            ;
+
+            
+        
+    
+            var circle_marker_8e0878398a1b4d5986f953a7506ffeed = L.circleMarker(
+                [30.31387194170817, -97.66996301532123],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_486b6b93e7924cfe97bc748ecb485dee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a3f4de4cc697400b9729263fb0739d94 = $(`<div id="html_a3f4de4cc697400b9729263fb0739d94" style="width: 100.0%; height: 100.0%;">University Hills / Stores and residential venues-Medium / 2 Discount Store, 1 Basketball Court, 1 Chinese Restaurant</div>`)[0];
+                popup_486b6b93e7924cfe97bc748ecb485dee.setContent(html_a3f4de4cc697400b9729263fb0739d94);
+            
+
+            circle_marker_8e0878398a1b4d5986f953a7506ffeed.bindPopup(popup_486b6b93e7924cfe97bc748ecb485dee)
+            ;
+
+            
+        
+    
+            var circle_marker_608e03037bb74f98b6e6d79acbf0f5c4 = L.circleMarker(
+                [30.290754565213625, -97.71548323262982],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_300609038b8d4bd39e85d0f564b27643 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fa382f8519664016a3f826e107591581 = $(`<div id="html_fa382f8519664016a3f826e107591581" style="width: 100.0%; height: 100.0%;">Upper Boggy Creek / Stores and residential venues-Medium / 3 Taco Place, 3 Theater, 2 American Restaurant</div>`)[0];
+                popup_300609038b8d4bd39e85d0f564b27643.setContent(html_fa382f8519664016a3f826e107591581);
+            
+
+            circle_marker_608e03037bb74f98b6e6d79acbf0f5c4.bindPopup(popup_300609038b8d4bd39e85d0f564b27643)
+            ;
+
+            
+        
+    
+            var circle_marker_ddfc751d49bc403485ca4c8c25c9df3e = L.circleMarker(
+                [30.215556281493804, -97.77250707085126],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_e5c8ddabe8f041ca8e80413e40875003 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_60ab55c0d449490cbb903bd52d0ca982 = $(`<div id="html_60ab55c0d449490cbb903bd52d0ca982" style="width: 100.0%; height: 100.0%;">West Congress / Stores and residential venues-Low / 4 Mexican Restaurant, 3 Coffee Shop, 2 Food Truck</div>`)[0];
+                popup_e5c8ddabe8f041ca8e80413e40875003.setContent(html_60ab55c0d449490cbb903bd52d0ca982);
+            
+
+            circle_marker_ddfc751d49bc403485ca4c8c25c9df3e.bindPopup(popup_e5c8ddabe8f041ca8e80413e40875003)
+            ;
+
+            
+        
+    
+            var circle_marker_e5d8dafbdaa64947bdaa5fe3f1879d7a = L.circleMarker(
+                [30.237496174049152, -97.89196025097574],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_d689c5d63ab1436096944e45c6fb0edc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd7fff515dc94736b72b38b3d18f7260 = $(`<div id="html_cd7fff515dc94736b72b38b3d18f7260" style="width: 100.0%; height: 100.0%;">West Oak Hill / Park-Medium / 1 Event Service, 1 Intersection, 1 Park</div>`)[0];
+                popup_d689c5d63ab1436096944e45c6fb0edc.setContent(html_cd7fff515dc94736b72b38b3d18f7260);
+            
+
+            circle_marker_e5d8dafbdaa64947bdaa5fe3f1879d7a.bindPopup(popup_d689c5d63ab1436096944e45c6fb0edc)
+            ;
+
+            
+        
+    
+            var circle_marker_d93ebadbfe414998a299fc3a065050fc = L.circleMarker(
+                [30.291832787077286, -97.74530045056075],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_7585b0ba258345c0bf1ff48556ef5296 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fbcd97ea96dd4d58b07258c7c1f46d26 = $(`<div id="html_fbcd97ea96dd4d58b07258c7c1f46d26" style="width: 100.0%; height: 100.0%;">West University / Food venues and misc social venues-Low / 6 Coffee Shop, 6 Food Truck, 5 Sandwich Place</div>`)[0];
+                popup_7585b0ba258345c0bf1ff48556ef5296.setContent(html_fbcd97ea96dd4d58b07258c7c1f46d26);
+            
+
+            circle_marker_d93ebadbfe414998a299fc3a065050fc.bindPopup(popup_7585b0ba258345c0bf1ff48556ef5296)
+            ;
+
+            
+        
+    
+            var circle_marker_76d2176461ea45b8b9da31ab35bb7ad6 = L.circleMarker(
+                [30.225357837609657, -97.79841767963694],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_11a441b24cee4ff39253d7229a7a96cb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3d73d96cefa74d339357c6918bad332a = $(`<div id="html_3d73d96cefa74d339357c6918bad332a" style="width: 100.0%; height: 100.0%;">Westgate / Food venues and misc social venues-Medium / 3 Café, 3 Food Truck, 3 Gas Station</div>`)[0];
+                popup_11a441b24cee4ff39253d7229a7a96cb.setContent(html_3d73d96cefa74d339357c6918bad332a);
+            
+
+            circle_marker_76d2176461ea45b8b9da31ab35bb7ad6.bindPopup(popup_11a441b24cee4ff39253d7229a7a96cb)
+            ;
+
+            
+        
+    
+            var circle_marker_060ed68c2a4c47fb8108a354d900010b = L.circleMarker(
+                [30.36386913244822, -97.67635856364875],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_32033b15d9634226b7f1b4c7a162134f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_19bb043a58d24452baa602cae15a8ea9 = $(`<div id="html_19bb043a58d24452baa602cae15a8ea9" style="width: 100.0%; height: 100.0%;">Windsor Hills / Food venues and misc social venues-Low / 2 Furniture / Home Store, 2 Rental Car Location, 1 Construction &amp; Landscaping</div>`)[0];
+                popup_32033b15d9634226b7f1b4c7a162134f.setContent(html_19bb043a58d24452baa602cae15a8ea9);
+            
+
+            circle_marker_060ed68c2a4c47fb8108a354d900010b.bindPopup(popup_32033b15d9634226b7f1b4c7a162134f)
+            ;
+
+            
+        
+    
+            var circle_marker_0e90399fc8e24d808b57143f5c56fa65 = L.circleMarker(
+                [30.311570020807505, -97.69231878326383],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_11d9813b76e740809b2be362747f02a1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66753be0f7c44f9fbbf63c78b9f0e16e = $(`<div id="html_66753be0f7c44f9fbbf63c78b9f0e16e" style="width: 100.0%; height: 100.0%;">Windsor Park / Stores and residential venues-Medium / 3 Grocery Store, 3 Pizza Place, 2 Home Service</div>`)[0];
+                popup_11d9813b76e740809b2be362747f02a1.setContent(html_66753be0f7c44f9fbbf63c78b9f0e16e);
+            
+
+            circle_marker_0e90399fc8e24d808b57143f5c56fa65.bindPopup(popup_11d9813b76e740809b2be362747f02a1)
+            ;
+
+            
+        
+    
+            var circle_marker_2009e44385e245029fa6e05c121bc205 = L.circleMarker(
+                [30.299397083109845, -97.75257985932596],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_4488f0691b664a64913a697ff4c669cd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f28582a7d11e4578930afd3e1965cf15 = $(`<div id="html_f28582a7d11e4578930afd3e1965cf15" style="width: 100.0%; height: 100.0%;">Windsor Road / Food venues and misc social venues-Very High / 3 Park, 2 American Restaurant, 2 Italian Restaurant</div>`)[0];
+                popup_4488f0691b664a64913a697ff4c669cd.setContent(html_f28582a7d11e4578930afd3e1965cf15);
+            
+
+            circle_marker_2009e44385e245029fa6e05c121bc205.bindPopup(popup_4488f0691b664a64913a697ff4c669cd)
+            ;
+
+            
+        
+    
+            var circle_marker_a373d1da3ea34db5b98356049826e4de = L.circleMarker(
+                [30.36019851555806, -97.72239192661337],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_6d27d4c21ad64569bddfa398605ad417 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_edb37d4900374c77aba478242376fc4c = $(`<div id="html_edb37d4900374c77aba478242376fc4c" style="width: 100.0%; height: 100.0%;">Wooten / Food venues and misc social venues-Medium / 6 Mexican Restaurant, 4 Furniture / Home Store, 3 Vietnamese Restaurant</div>`)[0];
+                popup_6d27d4c21ad64569bddfa398605ad417.setContent(html_edb37d4900374c77aba478242376fc4c);
+            
+
+            circle_marker_a373d1da3ea34db5b98356049826e4de.bindPopup(popup_6d27d4c21ad64569bddfa398605ad417)
+            ;
+
+            
+        
+    
+            var circle_marker_a0877c57620941419e2eb4301331e3b9 = L.circleMarker(
+                [30.255376960833797, -97.76833889545111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 1,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_629fb891fc0b4883883d34d601acffdb);
+            
+    
+            var popup_fbb1effc267e4f7b9bfaab28c48c45ae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a8e33b28e509431d94d01121e88bc70f = $(`<div id="html_a8e33b28e509431d94d01121e88bc70f" style="width: 100.0%; height: 100.0%;">Zilker / Food venues and misc social venues-High / 6 Coffee Shop, 5 Pizza Place, 4 Bar</div>`)[0];
+                popup_fbb1effc267e4f7b9bfaab28c48c45ae.setContent(html_a8e33b28e509431d94d01121e88bc70f);
+            
+
+            circle_marker_a0877c57620941419e2eb4301331e3b9.bindPopup(popup_fbb1effc267e4f7b9bfaab28c48c45ae)
+            ;
+
+            
+        
+</script>
